@@ -9,6 +9,7 @@ Aplicações:
  5. container do login com os campos principais, tipos bem definidos e aplicação da obrigatoriedade;
  6. campos com placeholders e hover, bem como no CTA;
  7. efeito de sombreamento aplicado no header, footer e container principal
+ 8. logo e title na aba
  
  Link de gravação: https://www.loom.com/share/bd74333667e54c8f86401a1f64d3a218
  
