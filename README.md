@@ -2,7 +2,7 @@
  Tela básica de login
  
 Aplicações:
- 1. plano de fundo com degradê;
+ - [] plano de fundo com degradê;
  2. breve header com logo;
  3. footer com redes social e o devido redirecionamento;
  4. imagem animada;
