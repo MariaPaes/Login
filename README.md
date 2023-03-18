@@ -2,14 +2,15 @@
  Tela básica de login
  
 Aplicações:
- - [] plano de fundo com degradê;
- 2. breve header com logo;
- 3. footer com redes social e o devido redirecionamento;
- 4. imagem animada;
- 5. container do login com os campos principais, tipos bem definidos e aplicação da obrigatoriedade;
- 6. campos com placeholders e hover, bem como no CTA;
- 7. efeito de sombreamento aplicado no header, footer e container principal
- 8. logo e title na aba
+
+ - [x] plano de fundo com degradê;
+ - [x] breve header com logo;
+ - [x] footer com redes social e o devido redirecionamento;
+ - [x] imagem animada;
+ - [x] container do login com os campos principais, tipos bem definidos e aplicação da obrigatoriedade;
+ - [x] campos com placeholders e hover, bem como no CTA;
+ - [x] efeito de sombreamento aplicado no header, footer e container principal
+ - [x] logo e title na aba
  
  Link de gravação: https://www.loom.com/share/bd74333667e54c8f86401a1f64d3a218 
  
