@@ -28,20 +28,20 @@
   
         <div class="container-login">
           <div class="apresentacao">
-              <h4>Bem-vindo(a)!</h4> 
-              <h3> <b>Entre na sua conta</b>  </h3>
+              <h1>Bem-vindo(a)!</h1> 
+              <h2> <b>Entre na sua conta</b>  </h2>
           </div>
           
           <form>
               <div class="dados-login">
                 <div class="email">
                   <label>E-mail:</label> <br>
-                  <input type="email" placeholder="Insira o e-mail" required>  
+                  <input type="email" placeholder="Insira o e-mail" required minlength="6" maxlength="40">  
                 </div>
                   
                 <div class="senha">
                   <label>Senha: </label>  <br>
-                  <input type="password" placeholder="Insira a senha" required> 
+                  <input type="password" placeholder="Insira a senha" required minlength="6" maxlength="30"> 
                 </div>
           
                 <button type="submit"> ENTRAR </button> <br>
@@ -50,7 +50,7 @@
                   <p>Ainda não possui uma conta?  <a href="./register.html"> Cadastre-se</a> </p>
                 </div>
               </div>
-    
+
           </form>
         </div>
       </main>

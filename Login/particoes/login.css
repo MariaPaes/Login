@@ -2,6 +2,17 @@
   margin: 0%;
   padding: 0%;
 }
+@font-face {
+  font-family: montserrat;
+  src: url('./mutitimidia/montserrat.woff2');
+}
+h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 20px;
+}
 
 nav.header-container{
   padding:  0.01%; 
@@ -15,6 +26,7 @@ nav.header-container{
 }
 
 div.default-layout{
+  font-family: montserrat;
   position:relative;
   width: 100%;
   height: 600px;
@@ -82,19 +94,25 @@ main.container-principal{
 .dados-login{
   width:100%;
   height: 75%;
-  margin-top: 26%;
+  margin-top: 25%;
   font-size: 100%;
   position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 
 .email{
   padding-top: 8%;
   padding-left: 15%;
+  display: flex;
+  flex-direction: column;
 }
 
 .senha{
   padding-top: 5%;
   padding-left: 15%;
+  display: flex;
+  flex-direction: column;
 }
 
 input[type=email], input[type=password] {
@@ -109,23 +127,13 @@ input[type=email]:hover, input[type=password]:hover {
   
   border: 1.5px solid rgb(10, 24, 179);
 
- /*hover onclick + transition esquerda p direita
-  outline-color:blue;
-  outline-style: inset; 
-  outline-width: 2px;
-
-  outclick + transition direita p esquerda
-  outline-color:green;
-  outline-style: inset; 
-  outline-width: 2px;
-  */
-
   transform: translate(0%);
   transition: all 0,1s;
-} /*colocar o hover no onclick e add o transition no after color*/
+} 
 
 button {
   background-color: #479ECE;
+  font-family: montserrat;
   border-radius: 10px;
   width: 35%;
   border: none;
@@ -137,7 +145,7 @@ button {
 button:hover {
   background-color: #0172CB;
   transition: all 0.3s;
-} /*melhorar a transição da esquerda p direita*/
+} 
 
 .cadastro{
   margin-top: 0%;
@@ -163,96 +171,39 @@ button:hover {
 }
 
 
- @media (max-width:900px){
-  .img{
+@media (max-width:900px){
+  #imgMotivacional{
     display: none;
   }
+
   main.container-principal{
-    width: 90%;
-    height: 90%;
+   
     top: 5%;
     left: 5%;
+    box-shadow: none;
   }
-    
+  
+  main.container-img{
+    display: none;
+    width: 0%;
+    height: 0%;
+  }
   .container-login{
     border-radius: 30px 30px 30px 30px;
     left: 0%;
-    width:100%;
-    top: 9%;
-    height: 80%;
+    width:90%;
+    top: -6%;
+    height: 100%;
 
   }
-  .apresentacao{
-    width:100%;
-    height: 100%;
-    left: 0%;
-    top: 9%;
-    font-size: 110%;
-    line-height: 150%;
-  } 
   .dados-login{
     width:100%;
-    left: 15%;
-    top: 30%;
-    font-size: 100%;
-    line-height: 100%;
-  }
-
-} 
-
-/*configurar entre 740 e 320px
-@media (max-height:620px) {
-  nav.header-container{
-    height: 6%;
-  }
-  
-  .header-logo{
-    width: 75%;
-  }
-  
-  .img{
-    display: none;
-  }
-  .container-login{
-    border-radius: 30px 30px 30px 30px;
-    margin: auto;
     left: 0%;
-    width:80%;
-    height: 100%;
     top: 0%;
   }
-  .apresentacao{
-    width:100%;
-    height: 100%;
-    left: 0%;
-    top: 9%;
-    font-size: 110%;
-    line-height: 150%;
-  } 
-  .dados-login{
-    width:100%;
-    left: 15%;
-    top: 30%;
-    font-size: 100%;
-    line-height: 100%;
-  }
-  input[type=email], input[type=password] {
-    width: 60%;
-    border-radius: 10px;
-    padding: 1% 2%;
-    margin: 1% 0%;
-  }
-  button {
-    width: 25%;
-  }
-  .cadastro{
-    bottom: 3%;
-    font-size: 100%;
-    padding: 1%;
-    left: -15%;
-    
-  }
-  .footer-develop{
-    font-size:110%;    
-  }
+
+}
+
+@media (max-width:360px){
+
 }
