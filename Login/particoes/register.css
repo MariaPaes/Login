@@ -1,0 +1,205 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+@font-face {
+  font-family: montserrat;
+  src: url('./mutitimidia/montserrat.woff2');
+}
+h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+nav.header-container{
+  padding:  0.01%; 
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.538);
+  /*box-shadow: 0px 0px 5px rgba(2,0,36,1) inset;*/
+}
+
+.header-logo{
+  padding: 0.5%;
+}
+
+div.default-layout{
+  font-family: montserrat;
+  position:relative;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,9,121,0.9613095238095238) 30%, rgba(0,212,255,1) 75%, rgba(255, 255, 255, 0.907) 100%);
+}
+
+main.container-principal{
+  width: 60%;
+  height: 80%;
+  margin-top: 5%; 
+  margin-left: 20%;
+  position: absolute;
+  box-shadow: 10px 15px 15px 10px rgba(0, 0, 0, 0.253);
+  border-radius: 10%;
+} 
+
+.container-img{
+  width:50%;
+  height: 100%;
+}
+
+#imgMotivacional{
+  top: 0%;
+  left: 0%;
+  width:50%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover; 
+  animation: motivation 8s infinite; 
+  border-radius: 10% 0 0 10%;
+} 
+
+@keyframes motivation {
+  0% {
+    object-position: 0% 0%;
+  }
+  25%{
+    object-position: 25% 0%;
+  }
+  100%{
+    object-position: 100% 100%;
+  }
+}
+
+.container-login{
+  top: 0%;
+  left: 50%;
+  width:50%;
+  height: 100%;
+  position: absolute;
+  background-color: #b4dbf8;
+  border-radius: 0 10% 10% 0;
+}
+
+.apresentacao{
+  width:100%;
+  height: 20%;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 130%;
+  line-height: 250%;
+  position: absolute;
+} 
+
+.dados-login{
+  width:100%;
+  height: 75%;
+  margin-top: 25%;
+  font-size: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.email{
+  padding-top: 8%;
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.senha{
+  padding-top: 5%;
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=email], input[type=password] {
+  width: 75%;
+  border-radius: 10px;
+  padding: 1.5% 2%;
+  margin: 1% 0%;
+  border: none
+}
+
+input[type=email]:hover, input[type=password]:hover {
+  
+  border: 1.5px solid rgb(10, 24, 179);
+
+  transform: translate(0%);
+  transition: all 0,1s;
+} 
+
+button {
+  background-color: #479ECE;
+  font-family: montserrat;
+  border-radius: 10px;
+  width: 35%;
+  border: none;
+  padding: 1.5%;
+  margin: 7% 30%;
+  color: white;
+}
+
+button:hover {
+  background-color: #0172CB;
+  transition: all 0.3s;
+} 
+
+.cadastro{
+  margin-top: 0%;
+  text-align: center;
+  font-size: 100%;
+}
+
+.footer-container{
+  padding:  1rem 0; 
+  border-top: 1px solid hsla(0,0%,100%,.1);
+  width: 100%;
+  bottom: 0%;
+  position: fixed;
+  display: block;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.253) inset;  
+}
+
+.footer-develop{
+  color: black;
+  font-size: 12.64px;
+  text-align: center;
+  bottom: 0%; 
+}
+
+
+@media (max-width:900px){
+  #imgMotivacional{
+    display: none;
+  }
+
+  main.container-principal{
+   
+    top: 5%;
+    left: 5%;
+    box-shadow: none;
+  }
+  
+  main.container-img{
+    display: none;
+    width: 0%;
+    height: 0%;
+  }
+  .container-login{
+    border-radius: 30px 30px 30px 30px;
+    left: 0%;
+    width:90%;
+    top: -6%;
+    height: 100%;
+
+  }
+  .dados-login{
+    width:100%;
+    left: 0%;
+    top: 0%;
+  }
+
+}
