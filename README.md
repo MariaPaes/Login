@@ -3,7 +3,7 @@
 
  ## Visão Geral
  
-Este projeto é uma tela de login básica desenvolvida em HTML 5 e CSS 3, criada com o objetivo de treinar e aprimorar habilidades de design responsivo, layout clean.
+Este projeto é uma tela de login básica desenvolvida em HTML 5 e CSS 3, criada com o objetivo de treinar e aprimorar habilidades de design responsivo e layout clean.
 
  
 ## Aplicações:
